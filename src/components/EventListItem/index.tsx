@@ -45,7 +45,7 @@ const EventListItem = ({ eventLog }: EventListItemProps) => (
           {' '}added.
         </p>
       )}
-      <p className={classes.date}>{dayjs(eventLog.date).format('DD MMM HH:mm:ss')}</p>
+      <p className={classes.date}>{dayjs(eventLog.date).format('DD MMM')}</p>
     </div>
   </li>
 )
