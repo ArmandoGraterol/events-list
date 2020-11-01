@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 50px;
+  background-image: linear-gradient(to bottom, #f4f0f3, #f2f0f5, #f0f1f7, #edf2f7, #eaf3f7);
+}
+
+.loadingMessage {
+  color: #333;
+}
